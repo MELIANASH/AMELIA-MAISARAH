@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+  <title>Home Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('images/tulip.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+      font-size: 25px;
+    }
+
+    header h2 {
+      margin: 0;
+    }
+
+    .content-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 15px;
+    }
+
+    .gif-container {
+      margin-right: 20px; /* Spacing between GIF and text */
+    }
+
+    .gif-container img {
+      width: 210px; /* Set the width to 50px */
+      height: 210px; /* Set the height to 50px */
+    }
+
+    article {
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.3); 
+      flex: 1; 
+    }
+
+    footer {
+      padding: 50px;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .content-wrapper {
+        flex-direction: column; 
+      }
+
+      .gif-container {
+        margin-right: 0;
+        margin-bottom: 20px; 
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>｡𖦹°‧ Welcome To My Personal Website ⋆𐙚₊˚⊹♡</h2>
+  </header>
+
+  <!-- Main content section with GIF on the left -->
+  <section class="content-wrapper">
+    <!-- GIF container -->
+    <div class="gif-container">
+      <img src="images/hello.gif" alt="Hello">
+    </div>
+    <!-- Article with text content -->
+    <article>
+      <marquee><p>Welcome to my personal website!  Feel free to explore and enjoy!</p></marquee>
+    </article>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>Thank you for visiting, you are stunning!</p>
+    <p>&copy; 2024 Amelia Maisarah. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
+

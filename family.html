@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Family</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('images/tulip.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #333;
+        }
+
+
+        .my-family {
+            margin: 50px auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        .my-family h2 {
+            color: #7a4d4a;
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .family-item {
+            background-color: rgba(244, 244, 244, 0.9); /* Slightly transparent background */
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .family-item h3 {
+            font-size: 28px;
+            color: #7a4d4a;
+            margin-bottom: 15px;
+        }
+
+       
+        .family-item img {
+            max-width: 45%;  
+            height: auto;
+            border-radius: 10px;
+            margin-top: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: 5px solid rgba(255, 255, 255, 0.4);  /* Semi-transparent border */
+        }
+
+        
+        .family-gathering-images {
+            display: flex;
+            justify-content: center;  
+            gap: 20px;  
+            margin-bottom: 20px;  
+        }
+
+        .family-gathering-images img {
+            width: 45%; 
+            border-radius: 10px;
+            border: 5px solid rgba(255, 255, 255, 0.4); /* Semi-transparent border */
+        }
+
+       
+        .family-item video {
+            max-width: 400px;  
+            height: 600px; 
+            border-radius: 10px;
+            margin: 20px auto;
+            display: block;
+        }
+
+        .family-item p {
+            font-size: 18px;
+            color: #333;
+        }
+
+      footer {
+            text-align: center;
+            padding: 8px;
+            background-color: #E9967A;
+            color: white;
+            position: below;
+            bottom: 0;
+            width: 100%;
+    }
+  </style>
+
+    <!-- Adding FontAwesome for icons -->
+</head>
+<body>
+
+    <!-- My Family Section -->
+    <section class="my-family">
+        <h2>𐙚 My Family 𐙚 </h2>
+
+        <!-- Family Gathering -->
+        <div class="family-item">
+            <h3><i class="fas fa-users"></i> Raya Edition </h3>
+            <p>Time spent with family is worth every second.</p>
+
+            <!-- Family Gathering Images -->
+            <div class="family-gathering-images">
+                <img src="images/parent.jpg" alt="Family Image 1">
+                <img src="images/family.jpg" alt="Family Image 2">
+            </div>
+        </div>
+        
+        <!-- Family Video -->
+        <div class="family-item">
+            <h3><i class="fas fa-video"></i> Eid's Video Dump </h3>
+            <p>Family is not an important thing. It's everything.</p>
+            <div class="media-container">
+                <video src="video/cousie.mov" alt="cousie" controls>  
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>&copy;2024 Amelia Maisarah. All Rights Reserved.</footer>
+
+</body>
+</html>
+

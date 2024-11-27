@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('images/tulip.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #333;
+        }
+
+       
+        .about-me {
+            text-align: center;
+            padding: 50px;
+            background-color: rgba(122, 77, 74, 0.8); /* Semi-transparent background */
+            border-radius: 10px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .about-me img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 4px solid #c0a4a3;
+        }
+
+        .about-me h1 {
+            color: white;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .about-me p {
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+            font-size: 18px;
+            color: white;
+        }
+
+
+        .social-media {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-media a {
+            text-decoration: none;
+            font-size: 25px;
+            color: white;
+            transition: color 0.3s;
+        }
+
+        .social-media a:hover {
+            color: #4CAF50; 
+        }
+
+        .social-media img {
+            width: 50px;  
+            height: 50px;
+        }
+
+        
+        .hobbies {
+            margin: 50px auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        .hobbies h2 {
+            color: #7a4d4a;
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .hobby-item {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .hobby-item h3 {
+            font-size: 28px;
+            color: #7a4d4a;
+            margin-bottom: 15px;
+        }
+
+       
+        .hobby-item img {
+            max-width: 45%; 
+            height: auto;
+            border-radius: 10px;
+            margin-top: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+       
+        .cafe-hunting-images {
+            display: flex;
+            justify-content: center;  
+            gap: 20px;  
+            margin-bottom: 20px; 
+        }
+
+        .cafe-hunting-images img {
+            width: 45%;  
+            border-radius: 10px;
+        }
+
+     
+        .hobby-item video {
+            max-width: 400px;  
+            height: 600px; 
+            border-radius: 10px;
+            margin: 20px auto;
+            display: block;
+        }
+
+        .hobby-item p {
+            font-size: 18px;
+            color: #333;
+        }
+
+      
+        footer {
+            text-align: center;
+            padding: 8px;
+            background-color: #7a4d4a;
+            color: white;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+      
+        .menu-name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #7a4d4a;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+   
+        .hobby-item.cooking {
+            background-image: url('cooking-background.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+        }
+
+    </style>
+    <!-- Adding FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- About Me Section -->
+    <section class="about-me">
+        <img src="images/amelias.jpg" alt="Profile Picture">
+        <h1>𐙚 My Profile 𐙚</h1>
+        <p>
+            Hello! My name is Amelia Maisarah Binti Nasharudin. You can call me melia. I'm 20 years old, from Kedah. 
+            I was born on 13th November 2004. My favourite colour is black. And I'm also was an independent woman.
+        </p>
+        
+        <!-- Social Media Section -->
+        <div class="social-media">
+            <!-- Instagram Link -->
+            <a href="https://www.instagram.com/meliaanash?igsh=dm9jMWw5eDM5ZzFt&utm_source=qr" target="_blank" title="Instagram">
+                <img src="images/insta.jpg" alt="Instagram">
+            </a>
+            <!-- Facebook Link -->
+            <a href="https://www.facebook.com/amelia.maisarah.9" target="_blank" title="Facebook">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section class="hobbies">
+        <h2>My Hobbies</h2>z
+
+        <!-- Cooking Hobby -->
+        <div class="hobby-item cooking">
+            <h3><i class="fas fa-utensils"></i> Cooking</h3>
+            <p>Cooking is my best therapy so far. It helps heal my heart that didn't break:</p>
+
+            <!-- Name of the menu that I cooked -->
+                <img src="images/nasiayam.jpg" alt="Cafe Image 1">
+                <img src="images/nasitomato.jpg" alt="Cafe Image 2">
+            </div>
+            
+        </div>
+
+        <!-- Cafe Hunting Hobby -->
+        <div class="hobby-item">
+            <h3><i class="fas fa-coffee"></i> Cafe Hunting</h3>
+            <p>I love trying new things in my life, like a cup of coffee that one of my therapy.</p>
+            
+            <!-- Cafe Hunting Images -->
+            <div class="cafe-hunting-images">
+                <img src="images/overn.jpg" alt="Cafe Image 1">
+                <img src="images/2day.jpg" alt="Cafe Image 2">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>&copy;2024 Amelia Maisarah. All Rights Reserved.</footer>
+
+</body>
+</html>

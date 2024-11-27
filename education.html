@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata - Amelia Maisarah</title>
+  <style>
+  
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('images/tulip.jpg');
+      background-size: cover;
+      background-position: center;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    h1, h2, h3 {
+      color: #fff;
+    }
+
+
+    header {
+      background-color: #E9967A;
+      color: darksalmon;
+      padding: 10px;
+      text-align: center;
+      font-size: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+    }
+
+    
+    marquee {
+      font-size: 24px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+  
+    main {
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+  
+    .education-info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; /* Space between items */
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .content {
+      background-color: floralwhite;
+      padding: 15px;
+      margin: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      flex: 1 1 300px; 
+    }
+
+
+    .content img {
+      width: 150px;
+      height: 150px;
+      border-radius: 8px;
+      margin-right: 20px;
+      border: 3px solid #ddd;
+      object-fit: cover;
+      animation: moveImage 3s ease-in-out infinite; 
+    }
+
+    .content h3 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .content p {
+      margin: 5px 0;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: darksalmon;
+      color: white;
+      text-align: center;
+
+      padding: 8px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      margin-top: 40px;
+    }
+
+
+    @keyframes moveImage {
+      0% {
+        transform: translateX(0); 
+      }
+      50% {
+        transform: translateX(20px); 
+      }
+      100% {
+        transform: translateX(0); 
+      }
+    }
+
+
+    @media (max-width: 768px) {
+      .content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .content img {
+        margin-bottom: 15px;
+      }
+
+      .education-info {
+        flex-direction: column;
+        align-items: center;
+      }
+ footer {
+            font-family: Arial
+            text-align: center;
+            padding: 8px;
+            background-color: #E9967A;
+            color: white;
+            position: below;
+            bottom: 0;
+            width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <marquee>Education's Information</marquee>
+    <p>Here's a look at my educational background!</p>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Education Section -->
+    <section class="education-info">
+      <!-- Primary School -->
+      <div class="content">
+        <img src="images/skut.jpg" alt="Primary School">
+        <div>
+          <h3>Primary School</h3>
+          <p>𓆩♡𓆪 Attended from 7 years old until 12 years old</p>
+          <p>𓆩♡𓆪 Got an 1A, 5B for my UPSR examination</p>
+          <p>𓆩♡𓆪 An athlete for volleyball</p>
+        </div>
+      </div>
+
+      <!-- Secondary School -->
+      <div class="content">
+        <img src="images/smkeb.jpg" alt="Secondary School">
+        <div>
+          <h3>Secondary School</h3>
+          <p>𓆩♡𓆪 Attended from 13 years old until 18 years old</p>
+          <p>𓆩♡𓆪 Got 5A, 4B for my SPM examination</p>
+          <p>𓆩♡𓆪 The bestest school environment</p>
+        </div>
+      </div>
+
+      <!-- University -->
+      <div class="content">
+        <img src="images/uitmm.png" alt="University">
+        <div>
+          <h3>University</h3>
+          <p>𓆩♡𓆪 Continuing my studies here</p>
+          <p>𓆩♡𓆪 It was my last semester for my diploma journey</p>
+          <p>𓆩♡𓆪 Took diploma in Information Management</p>
+         
+         </ul>
+      
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 Amelia Maisarah. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

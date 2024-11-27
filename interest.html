@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Interests</title>
+  <style>
+     {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('images/tulip.jpg');
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 10px;
+      background-color: #E9967A;
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    .interest-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .media-container {
+      background-color: white;
+      margin: 10px;
+      padding: 10px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      width: 300px;
+      text-align: center;
+    }
+
+    .media-container img,
+    .media-container video {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      border: 2px solid #ddd;
+    }
+
+
+    .media-container video {
+      max-width: 80%; 
+      background-color: white;
+      margin: 10px;
+      padding: 10px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #E9967A;
+      color: white;
+      text-align: center;
+      padding: 8px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <marquee><h1>｡𖦹°‧My Interests⋆𐙚₊˚⊹♡</h1></marquee>
+  </header>
+
+  <!-- Main Content Section -->
+  <section class="interest-section">
+    <!-- Image Frames -->
+    <div class="media-container">
+      <img src="images/novel.jpg" alt="Novel">
+    </div>
+
+    <div class="media-container">
+      <img src="images/novel4.jpg" alt="Novel 4">
+    </div>
+
+    <div class="media-container">
+      <img src="images/novel2.jpg" alt="Novel 2">
+    </div>
+
+    <!-- Video Frames -->
+    <div class="media-container">
+      <video src="video/makeup.mp4" alt="makeup" controls>  
+        <p>Makeup</p>
+      </video>
+    </div>
+  </section>
+  
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 Amelia Maisarah. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
